@@ -112,6 +112,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "stevewitmandotcom:build:production",
+            "firebaseProject": "stevewitmandotcom",
+            "firebaseHostingSite": "stevewitmandotcom"
+          }
         }
       }
     }
